@@ -1,0 +1,115 @@
+body {
+  background-color: e5e6e8;
+  /*background-color: #dbe1e5;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='12' viewBox='0 0 40 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 6.172L6.172 0h5.656L0 11.828V6.172zm40 5.656L28.172 0h5.656L40 6.172v5.656zM6.172 12l12-12h3.656l12 12h-5.656L20 3.828 11.828 12H6.172zm12 0L20 10.172 21.828 12h-3.656z' fill='%239299ac' fill-opacity='0.27' fill-rule='evenodd'/%3E%3C/svg%3E");*/
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 35px;
+  color: #105af3;
+  letter-spacing: -1px;
+  background-image: linear-gradient(229deg, hsl(24.399999999999977, 67.5%, 68.6%) 16%, hsl(184, 57.1%, 64.3%) 89%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+h2 {
+  font-size: 45px;
+}
+
+h4 {
+  font-family: 'Merriweather', serif;
+  font-size : 15px;
+  font-weight: 300;
+  color: #383D47;
+  margin-top: 10px;
+  margin-bottom: 45px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn_blue {
+  font-family: 'Merriweather', serif;
+  font-size : 12px;
+  font-weight: 300;
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  transition: 0.6s;
+  color:grey;
+  margin: 25px;
+}
+
+.btn_blue:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+
+}
+
+.container {
+  width: 750px;
+  margin: 3% auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  padding: 40px;
+  margin: 20px;
+  box-shadow: 0 10px 50px rgba(0,0,0,0.09), 0 6px 6px rgba(0,0,0,0.13);
+}
+
+#profile {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.list_contact {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list_contact li {
+  display: inline;
+  padding: 20px;
+}
+
+.list_contact i {
+  font-size: 30px;
+  color: rgb(180,180,180);
+  transition: 0.6s;
+}
+
+.list_contact i:hover {
+  font-size: 30px;
+  color: black;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
